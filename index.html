@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Selecciona un Formulario</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    button {
+      background: linear-gradient(145deg, #a8e6a3, #7ac97b);
+      border: none;
+      color: #fff;
+      padding: 15px 25px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    button:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Selecciona un Formulario</h1>
+  <div class="button-container">
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfaicg-QSQYiLdx126lqTaAHInZQ_Oq4EcHqf5pBMuX9Uob4Q/viewform?usp=dialog'">
+      Inspección de Vehículo
+    </button>
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfaicg-QSQYiLdx126lqTaAHInZQ_Oq4EcHqf5pBMuX9Uob4Q/viewform?usp=dialog'">
+      Reporte de Trabajo
+    </button>
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScdDAeV7FD1lwwhiXXPVX3tsQzmplTppcEMYmo3qUqE-WWQOw/viewform?usp=dialog'">
+      Pedido de Herramienta
+    </button>
+  </div>
+</body>
+</html>
