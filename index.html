@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Selecciona un Formulario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 🔥 Key line -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,24 +13,27 @@
     }
     h1 {
       margin-bottom: 40px;
+      font-size: 24px;
     }
     .button-container {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      max-width: 400px;
+      width: 100%;
+      max-width: 500px;
       margin: 0 auto;
     }
     button {
       background: linear-gradient(145deg, #a8e6a3, #7ac97b);
       border: none;
       color: #fff;
-      padding: 15px 25px;
+      padding: 18px 25px;
       font-size: 18px;
       font-weight: bold;
-      border-radius: 12px;
+      border-radius: 14px;
       cursor: pointer;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
+      width: 100%;
     }
     button:hover {
       transform: scale(1.02);
